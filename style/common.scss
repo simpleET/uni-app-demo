@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+
+// 后续继续添加
+page,div,view,scroll-view,text,swiper,button,switch {
+	box-sizing: border-box;
+}
+
+//自定义常用的 class 
+.clear-both {
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.user-select {
+  user-select: none;
+}
+
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.overflow {
+  overflow: hidden;
+}

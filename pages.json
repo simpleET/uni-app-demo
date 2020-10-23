@@ -1,0 +1,89 @@
+{
+	"pages": [
+		//  pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "宜春.湾区"
+			}
+		},
+		{
+			"path": "pages/company/company",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/contacts/contacts",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#868686",
+		"selectedColor": "#DA2A22",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"iconWidth":"10px",
+		"spacing":"8px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/tab-bar/tab_message_n.png",
+				"selectedIconPath": "static/tab-bar/tab_message_p.png",
+				"text": "社群"
+			},
+			{
+				"pagePath": "pages/company/company",
+				"iconPath": "static/tab-bar/tab_news_n.png",
+				"selectedIconPath": "static/tab-bar/tab_news_p.png",
+				"text": "企业"
+			},
+			{
+				"pagePath": "pages/publish/publish",
+				"iconPath": "static/tab-bar/tab_creation_n.png",
+				"selectedIconPath": "static/tab-bar/tab_creation_p.png",
+				"text": "发布"
+			},
+			{
+				"pagePath": "pages/contacts/contacts",
+				"iconPath": "static/tab-bar/tab_talent_n.png",
+				"selectedIconPath": "static/tab-bar/tab_talent_n.png",
+				"text": "人脉"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"iconPath": "static/tab-bar/tab_mine_n.png",
+				"selectedIconPath": "static/tab-bar/tab_mine_p.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "宜春.湾区",
+		"navigationBarBackgroundColor": "#DA2A22",
+		"backgroundColor": "#FFFFFF"
+	}
+	
+}

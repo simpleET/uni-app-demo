@@ -1,0 +1,22 @@
+// page： 首页
+
+@import './variables.scss';
+
+.index-page{
+	.nav-bar-cont{
+		height: 45px;
+		line-height: 45px;
+		border-bottom: 1px solid #F0F0F0;
+		/deep/.uni-scroll-view-content{
+			display: flex;
+			justify-content: space-between;
+			padding:0 20px;
+		}	
+	}
+	.nav-item{ 
+		padding:0 5px;
+		color: #666;
+	}
+}
+
+
