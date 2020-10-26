@@ -13,7 +13,6 @@
 
 <script>
 	import {
-		getBannerList,
 		login,
 	} from '../../api/index.js';
 	export default {
@@ -30,17 +29,10 @@
 			// #endif
 		},
 		methods: {
-			async getFocus() {
-				let res = await getBannerList();
-				if (res.code === 200) {
-					this.bannerList = res.data;
-				} else {
-					uni.showToast({
-						title: res.msg || '服务器繁忙',
-					});
-
-				}
-
+			 getFocus() {
+				uni.navigateTo({
+					url:'../recommend/recommend'
+				})
 			},
 			async login() {
 				let sendData ={

@@ -1,4 +1,5 @@
 import _ from 'lodash';
+
 const BASE_URL = "https://wxyc.rcdata.com.cn";
 
 export const fetch = async (url = '', data = {}, method = 'GET', header = {}) => {
@@ -23,7 +24,7 @@ export const fetch = async (url = '', data = {}, method = 'GET', header = {}) =>
 			return Promise.reject(response[0].errMsg);
 		}
 
-		if (response[1] && response[1].statusCode === 200) {
+		if (_.get(response,'[1].statusCode') === 200) {
 			const res = _.get(response, '[1].data', {}) || {};
 
 			if (res.code !== 200) {
