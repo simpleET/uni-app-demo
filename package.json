@@ -1,0 +1,11 @@
+{
+  "name": "talent-community",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:simpleET/uni-app-demo.git",
+  "author": "lsk <longsk@casc.ac.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
